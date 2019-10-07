@@ -11,13 +11,33 @@
         h1{font-family: "Arial",Arial, sans-serif; font-size:40pt;color:red;margin-left:30%;}
         h2{font-family:"Arial",Arial, sans-serif; font-size:18pt;color:red;margin-left:40%;}
         h3{font-family:"Arial",Arial, sans-serif; font-size:18pt;color:blue;margin-left:40%;}
+        .row{text-align: left;}
+        
+        /* rules for phones */
+		@media only screen and (max-width:720px)
+		{
+			.tablet {display:none;}
+			.desktop {display:none;}
+		}
+		/* CSS rules for tablets */
+		@media only screen and (min-width:721px) and (max-width:960px)
+		{
+			.desktop {display:none;}
+			.phone {display:none;}
+		}
+		/* CSS rules for desktops */
+		@media only screen and (min-width:961px)
+		{
+			.tablet {display:none;}
+			.phone {display:none;}
+		}
         
 </style>
 </head>
 
 
 <body style="background-color:powderblue;">
-        <i class="fa fa-arrow-right"> <h1>Who is Noah Sayed????</i></a>
+        <i class="fa fa-arrow-right"><h1>Who is Noah Sayed????</i></a>
         <i class="fa fa-arrow-left"></i><h2>You're about to find out 
             <div class = "border">
                  <div class = "col-sm-3">
@@ -33,7 +53,7 @@
                         </div>
         <div class = "row">
             <div class = col-sm>
-                <a href="https://NoahSayed529.github.io/blob/master/Resume.pdf> <button type="button"  class="btn btn-outline-light" style="margin:1%">Resume</button></a>
+                <a href="https://github.com/NoahSayed529/NoahSayed529.github.io/blob/master/Resume.pdf"> <button type="button"  class="btn btn-outline-light" style="margin:1%">Resume</button></a>
                     </div>
                     </div>
                     
